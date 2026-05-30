@@ -77,6 +77,9 @@ REGISTRY: dict[str, ResourceEntry] = {
     "hf_buckets":
     ResourceEntry("mirage.resource.hf_buckets:HfBucketsResource",
                   "mirage.resource.hf_buckets:HfBucketsConfig"),
+    "onedrive":
+    ResourceEntry("mirage.resource.onedrive:OneDriveResource",
+                  "mirage.resource.onedrive:OneDriveConfig"),
     "github":
     ResourceEntry("mirage.resource.github:GitHubResource",
                   "mirage.resource.github:GitHubConfig"),
